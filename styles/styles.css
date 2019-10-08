@@ -16,7 +16,11 @@
 #navigation {
   margin: -20px;
   background: darkgrey;
-  border: 15px solid darkgrey;
+  border: 15px solid grey;
+  border-top: 20px solid lightgrey;
+  border-bottom: 20px solid black;
+  font-size: 32px;
+  position: center;
 }
 
 .bullet-header {
