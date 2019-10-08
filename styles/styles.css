@@ -13,14 +13,14 @@
   border: 10px solid orange;
 }
 
-#bullet-header {
-color: darkblue;
-}
-
 #navigation {
   margin: -20px;
   background: darkgrey;
   border: 15px solid darkgrey;
+}
+
+.bullet-header {
+color: darkblue;
 }
 
 .table {
@@ -63,21 +63,21 @@ a:hover[href="https://www.ucvts.tec.nj.us/Page/471" ] {
   outline: red;
 }
 
-a:hover {
-  color:orange;
-}
-
 a:visited {
   color: blue;
+}
+
+a:hover {
+  color:orange;
 }
 
 div a.bold{
 font-weight: bold;
 }
 
-h3 ~ ul {
+h3 + ul {
   margin: 1px;
-  padding: 5px;
+  padding: 7px;
   border: 2px solid black;
   border-radius: 15px;
   border-width: thick;
